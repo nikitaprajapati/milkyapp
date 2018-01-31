@@ -30,11 +30,11 @@
     <plugin name="cordova-plugin-vibration" source="npm" spec="~2.1.0" />
     <plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.1" />
     <icon src="icon.png" />
+    <preference name="SplashScreen" value="screen" />
+    <preference name="SplashScreenDelay" value="7000" />
+    <preference name="ShowSplashScreenSpinner" value="true" />
+    <splash src="splash.png" />
     <platform name="android">
-        <preference name="SplashScreen" value="screen" />
-        <preference name="SplashScreenDelay" value="7000" />
-        <preference name="ShowSplashScreenSpinner" value="true" />
-        <splash src="splash.png" />
     </platform>
     <access origin="*" />
     <allow-intent href="http://*/*" />
@@ -46,5 +46,5 @@
     <platform name="android">
         <allow-intent href="market:*" />
     </platform>
-    <plugin name="cordova-plugin-splashscreen" spec="~5.0.2" />
+    <plugin name="cordova-plugin-splashscreen" spec="~4.0.3" />
 </widget>
