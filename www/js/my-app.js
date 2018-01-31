@@ -64,7 +64,6 @@ function checkConnection() {
 
 function checkStorage()
 { 
-    navigator.splashscreen.show();
    checkConnection();
    //alert("in sabzi func");
     var value = window.localStorage.getItem("login_session");
