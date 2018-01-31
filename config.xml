@@ -29,7 +29,6 @@
     <plugin name="cordova-plugin-statusbar" source="npm" spec="~2.1.2" />
     <plugin name="cordova-plugin-vibration" source="npm" spec="~2.1.0" />
     <plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.1" />
-    <plugin name="cordova-plugin-splashscreen" spec="~5.0.2" />
     <icon src="icon.png" />
     <platform name="android">
         <preference name="SplashScreen" value="screen" />
@@ -47,4 +46,5 @@
     <platform name="android">
         <allow-intent href="market:*" />
     </platform>
+    <plugin name="cordova-plugin-splashscreen" spec="~5.0.2" />
 </widget>
