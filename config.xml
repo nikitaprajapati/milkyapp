@@ -32,22 +32,10 @@
     <plugin name="cordova-plugin-splashscreen" spec="~5.0.2" />
     <icon src="icon.png" />
     <platform name="android">
-        <!--preference name="SplashScreen" value="splash" />
+        <preference name="SplashScreen" value="splash" />
         <preference name="SplashScreenDelay" value="7000" />
         <preference name="ShowSplashScreenSpinner" value="true" />
-        <splash src="splash.png" /--> 
-        <splash density="land-ldpi" src="www/res/screen/android/splash.png" />
-        <splash density="land-mdpi" src="www/res/screen/android/splash.png" />
-        <splash density="land-hdpi" src="www/res/screen/android/splash.png" />
-        <splash density="land-xhdpi" src="www/res/screen/android/splash.png" />
-        <splash density="land-xxhdpi" src="www/res/screen/android/splash.png" />
-        <splash density="land-xxxhdpi" src="www/res/screen/android/splash.png" />
-        <splash density="port-ldpi" src="www/res/screen/android/splash.png" />
-        <splash density="port-mdpi" src="www/res/screen/android/splash.png" />
-        <splash density="port-hdpi" src="www/res/screen/android/splash.png" />
-        <splash density="port-xhdpi" src="www/res/screen/android/splash.png" />
-        <splash density="port-xxhdpi" src="www/res/screen/android/splash.png" />
-        <splash density="port-xxxhdpi" src="www/res/screen/android/splash.png" />
+        <splash src="splash.png" />
     </platform>
     <access origin="*" />
     <allow-intent href="http://*/*" />
