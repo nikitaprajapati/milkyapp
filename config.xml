@@ -32,7 +32,7 @@
     <plugin name="cordova-plugin-splashscreen" spec="~5.0.2" />
     <icon src="icon.png" />
     <platform name="android">
-        <preference name="SplashScreen" value="splash" />
+        <preference name="SplashScreen" value="screen" />
         <preference name="SplashScreenDelay" value="7000" />
         <preference name="ShowSplashScreenSpinner" value="true" />
         <splash src="splash.png" />
